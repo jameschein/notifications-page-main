@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+
+:root {
+    --new-blue:#0A327A;
+    --message-bgd: #F6FAFD;
+    --body-text: #696D79;
+    --emphasis: #000;
+    --new-red: #E75452;
+}
+
+
+body {
+    background-color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color:var(--body-text);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:1.5rem;
+    line-height: 1.125;
+}
+
+.wrapper {
+    width:96%;
+    margin:0 auto;
+    
+}
+
+header, main, footer, .member {
+    padding: .25rem .5rem .75rem;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color:var(--emphasis);
+    display:flex; 
+    align-items:flex-end;
+}
+
+footer {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin:1rem;
+    padding-block: 1rem;
+    border-top:1px solid var(--body-text);
+}
+
+footer .attribution a {
+    color: var(--emphasis);
+}
+
+img {
+    width:44px;
+    object-fit: cover;
+}
+
+span, a {
+    font-weight:bold;
+}
+
+.member {
+    display: flex;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-block:.75rem;
+    gap:1rem;
+    padding:1.075rem 1.125rem;
+}
+
+.name {
+    color:var(--emphasis);
+    padding-inline: 0 .25rem;
+  
+}
+
+.member-group {
+    color:var(--new-blue);
+}
+
+blockquote {
+    width:100%;
+    background-color: white;
+    border:1px solid lightgrey;
+    padding:1rem 1rem 2rem;
+    margin-block:1rem;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+
+p {
+    padding-block:.125rem
+}
+
+.new {
+    background-color: var(--new-blue);
+    padding:.125rem .75rem;
+    color:white;
+    border-radius: 7px;
+    margin-inline: .5rem;
+    font-size: 1.125rem;
+    font-weight:bold;
+
+}
+
+
+button {
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--body-text);
+    letter-spacing: .05rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.new-msg {
+    background-color: var(--message-bgd);
+}
+
+.new-msg .alert {
+    font-size:1.25rem;
+    color:var(--new-red);
+    padding-inline:.125rem;
+}
+
+@media only screen and (min-width:1024px) {
+
+    .wrapper {
+        max-width: 50%;
+        padding-block:1rem;
+    }
+
+
+
+}
