@@ -60,7 +60,7 @@ a:hover, a:focus {
     transition: color 200ms ease-in-out;
 }
 
-h2 {
+h1 {
     font-size: 1.4rem;
     color:var(--emphasis);
     display:flex; 
