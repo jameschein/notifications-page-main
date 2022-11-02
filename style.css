@@ -195,6 +195,16 @@ button {
     visibility: hidden;
 }
 
+.attribution {
+    text-align: right;
+}
+
+.attribution span {
+    display:block;
+    padding-block:.5rem;
+
+}
+
 
 
 
@@ -213,6 +223,10 @@ button {
     }
 
    
-
+    .attribution span {
+        display:inline-block;
+        padding-left:1rem;
+    }
+    
 
 }
