@@ -106,8 +106,8 @@ span, a {
 
 .message a {
 margin-left: auto;
-width:44px;
-height: 44px;
+width:48px;
+height: 48px;
 }
 
 .name {
@@ -206,7 +206,7 @@ button {
     }
 
     .wrapper {
-        max-width: 50%;
+        max-width: 60%;
         padding:1.5rem;
         border-radius: 10px;
         box-shadow: 2px 2px 20px rgba(200,200,200,.5);
